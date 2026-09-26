@@ -6,7 +6,9 @@ LimitBar puts Codex and Claude subscription usage on your Windows taskbar. See w
 
 [Download for Windows](https://github.com/ibneturabhassan/LimitBar/releases) · [Setup guide](docs/windows-setup.md) · [Contribute](CONTRIBUTING.md) · [Report a bug](https://github.com/ibneturabhassan/LimitBar/issues/new/choose)
 
-![LimitBar taskbar readings and translucent hover card](docs/assets/overview.png)
+[![Watch the 22-second LimitBar demo](docs/assets/launch-video.jpg)](https://github.com/ibneturabhassan/LimitBar/releases/download/v0.1.0-beta.2/LimitBar-demo.mp4)
+
+**[▶ Watch the 22-second demo](https://github.com/ibneturabhassan/LimitBar/releases/download/v0.1.0-beta.2/LimitBar-demo.mp4)**
 
 *Actual app UI with sample readings, arranged on an illustrative desktop background. No personal account data is shown.*
 
