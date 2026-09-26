@@ -34,7 +34,7 @@ The desktop render checks are useful regression coverage; they do not replace in
 
 ## GitHub release workflow
 
-Push a version tag matching `Directory.Build.props`, for example `v0.1.0-beta.1`. The release workflow builds on Windows and creates a **draft** GitHub release with the installer, ZIP, and checksums. It marks versions containing `-` as prereleases. Review the draft, attach release notes, and publish it.
+Push a version tag matching `Directory.Build.props`, for example `v0.1.0-beta.2`. The release workflow builds on Windows and creates a **draft** GitHub release with the installer, ZIP, and checksums. It marks versions containing `-` as prereleases. Review the draft, attach release notes, and publish it.
 
 Pull requests run the Windows CI workflow with read-only repository permissions. Release creation runs only for version tags. Do not place secrets or signing certificates in the repository.
 

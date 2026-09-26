@@ -13,7 +13,7 @@ Initial builds are unsigned. If Windows blocks the download, verify that it came
 Optional integrity check, in the download folder:
 
 ```powershell
-Get-FileHash .\LimitBar-0.1.0-beta.1-win-x64-setup.exe -Algorithm SHA256
+Get-FileHash .\LimitBar-0.1.0-beta.2-win-x64-setup.exe -Algorithm SHA256
 ```
 
 Compare the result with `SHA256SUMS.txt` from the same release. A checksum detects a damaged or mismatched download; it is not a publisher signature.

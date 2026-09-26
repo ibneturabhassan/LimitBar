@@ -32,8 +32,10 @@ internal static class DesktopChecks
         {
             if (parent is System.Windows.Controls.TextBlock text)
             {
-                text.Measure(new System.Windows.Size(text.ActualWidth, double.PositiveInfinity));
-                Check(text.ActualHeight + 0.5 >= text.DesiredSize.Height - text.Margin.Top - text.Margin.Bottom,
+                // Use the layout's original measurement. Remeasuring at the rounded
+                // ActualWidth can wrap a label onto a second line on other font/DPI setups.
+                var pixel = 1 / System.Windows.Media.VisualTreeHelper.GetDpi(text).DpiScaleY;
+                Check(text.ActualHeight + pixel >= text.DesiredSize.Height - text.Margin.Top - text.Margin.Bottom,
                     "Text must have its complete measured height: " + text.Text);
             }
             for (var i = 0; i < System.Windows.Media.VisualTreeHelper.GetChildrenCount(parent); i++)

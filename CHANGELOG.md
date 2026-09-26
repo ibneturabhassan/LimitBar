@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0-beta.1
+## 0.1.0-beta.2
 
 Initial open-source Windows beta.
 
