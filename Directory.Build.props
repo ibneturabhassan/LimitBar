@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.1.0-beta.1</Version>
+    <Authors>LimitBar contributors</Authors>
+    <Product>LimitBar</Product>
+    <Description>Codex and Claude usage limits on your Windows taskbar.</Description>
+    <RepositoryUrl>https://github.com/ibneturabhassan/LimitBar</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>

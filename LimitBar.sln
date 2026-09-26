@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitBar.Core", "LimitBar.Core\LimitBar.Core.csproj", "{E54F27AD-11D3-486F-A445-0A7B04C51CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "limitbar-cli", "limitbar-cli\limitbar-cli.csproj", "{511DC03D-02A3-4978-8FAD-6E75CE42470A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitBar.Widget", "LimitBar.Widget\LimitBar.Widget.csproj", "{2280762F-C73A-4620-98AC-D52CA2A4BC81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitBar.Host", "LimitBar.Host\LimitBar.Host.csproj", "{2111812E-FB6C-429C-B49E-42CF7602E2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitBar.Desktop", "LimitBar.Desktop\LimitBar.Desktop.csproj", "{DB0B87C7-17A8-41D8-8A7F-B7326D423B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitBar.Checks", "LimitBar.Checks\LimitBar.Checks.csproj", "{833401F4-7AA9-4430-8E27-D75FBF0390F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E54F27AD-11D3-486F-A445-0A7B04C51CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54F27AD-11D3-486F-A445-0A7B04C51CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54F27AD-11D3-486F-A445-0A7B04C51CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54F27AD-11D3-486F-A445-0A7B04C51CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511DC03D-02A3-4978-8FAD-6E75CE42470A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511DC03D-02A3-4978-8FAD-6E75CE42470A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511DC03D-02A3-4978-8FAD-6E75CE42470A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511DC03D-02A3-4978-8FAD-6E75CE42470A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2280762F-C73A-4620-98AC-D52CA2A4BC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2280762F-C73A-4620-98AC-D52CA2A4BC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2280762F-C73A-4620-98AC-D52CA2A4BC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2280762F-C73A-4620-98AC-D52CA2A4BC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2111812E-FB6C-429C-B49E-42CF7602E2F9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{2111812E-FB6C-429C-B49E-42CF7602E2F9}.Debug|Any CPU.Build.0 = Debug|x64
+		{2111812E-FB6C-429C-B49E-42CF7602E2F9}.Release|Any CPU.ActiveCfg = Release|x64
+		{2111812E-FB6C-429C-B49E-42CF7602E2F9}.Release|Any CPU.Build.0 = Release|x64
+		{DB0B87C7-17A8-41D8-8A7F-B7326D423B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0B87C7-17A8-41D8-8A7F-B7326D423B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0B87C7-17A8-41D8-8A7F-B7326D423B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0B87C7-17A8-41D8-8A7F-B7326D423B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833401F4-7AA9-4430-8E27-D75FBF0390F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833401F4-7AA9-4430-8E27-D75FBF0390F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833401F4-7AA9-4430-8E27-D75FBF0390F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833401F4-7AA9-4430-8E27-D75FBF0390F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

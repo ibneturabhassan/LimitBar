@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "path": "LimitBar.sln",
+    "projects": [
+      "LimitBar.Core\\LimitBar.Core.csproj",
+      "LimitBar.Desktop\\LimitBar.Desktop.csproj",
+      "LimitBar.Checks\\LimitBar.Checks.csproj",
+      "limitbar-cli\\limitbar-cli.csproj"
+    ]
+  }
+}

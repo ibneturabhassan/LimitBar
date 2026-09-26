@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible LimitBar problem.
+body:
+  - type: markdown
+    attributes:
+      value: Never attach tokens, credential files, account identifiers, or raw authenticated API responses.
+  - type: input
+    id: version
+    attributes:
+      label: LimitBar version
+      placeholder: 0.1.0-beta.1
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version, display scale, and monitor layout
+      placeholder: Windows 11, 150%, one primary horizontal taskbar
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted screenshots and provider CLI versions
+      description: Remove any personal account information first.
